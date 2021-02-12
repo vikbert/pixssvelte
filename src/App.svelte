@@ -1,5 +1,6 @@
 <script>
 	import { Footer } from './components';
+	import { Github } from './components';
 </script>
 
 <style>
@@ -15,6 +16,9 @@
 	}
 </style>
 
+<div class="container">
+  <Github githubAuthor='vikbert' githubProject='pixssvelte' width=30/>
+</div>
 <div class="wrapper">
-	<Footer />
+  <Footer githubAuthor='vikbert' githubProject='vikbert.github.io'/>
 </div>
