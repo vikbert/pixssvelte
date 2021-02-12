@@ -69,7 +69,7 @@ yarn bootstrap
 
 4. Run `npm init`, to configure the project.
 
-Your component's source code lives in `src/components/[MyComponent].svelte`.
+Your component's source code lives in `src/components/[Footer].svelte`.
 
 ## Developing
 
@@ -128,13 +128,13 @@ It's for Svelte to be able to import multiple components from a single source.
 For instance, it lets the user do:
 
 ```javascript
-import { MyComponent, MyOtherComponent } from 'my-component-library';
+import { Footer, MyOtherComponent } from 'my-component-library';
 ```
 
 Instead of:
 
 ```javascript
-import MyComponent from 'my-component-library/components/MyComponent.svelte';
+import Footer from 'my-component-library/components/Footer.svelte';
 import MyOtherComponent from 'my-component-library/components/MyOtherComponent';
 ```
 

@@ -1,3 +1,3 @@
-import { default as MyComponent } from './MyComponent.svelte';
+import { default as Footer } from './Footer.svelte';
 
-export { MyComponent };
+export { Footer };

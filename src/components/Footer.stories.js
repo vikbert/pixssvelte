@@ -1,8 +1,8 @@
-import MyComponent from './MyComponent.svelte';
+import Footer from './Footer.svelte';
 
 export default {
-	title: 'Example/MyComponent',
-	component: MyComponent,
+	title: 'Example/Footer',
+	component: Footer,
 	argTypes: {
 		name: { control: 'text' },
 		textColor: { control: 'color' },
@@ -10,7 +10,7 @@ export default {
 };
 
 const Template = ({ ...args }) => ({
-	Component: MyComponent,
+	Component: Footer,
 	props: args,
 });
 

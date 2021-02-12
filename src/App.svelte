@@ -1,6 +1,5 @@
 <script>
-	import { MyComponent } from './components';
-	const name = 'World';
+	import { Footer } from './components';
 </script>
 
 <style>
@@ -17,5 +16,5 @@
 </style>
 
 <div class="wrapper">
-	<MyComponent {name} />
+	<Footer />
 </div>
